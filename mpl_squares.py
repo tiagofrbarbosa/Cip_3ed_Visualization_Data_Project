@@ -3,6 +3,10 @@ import matplotlib.pyplot as plt
 input_values = [1,2,3,4,5]
 squares = [1,4,9,16,25]
 
+# to view styles avaiable in terminal use:
+# import matplotlib.pyplot as plt
+# plt.style.available
+
 plt.style.use('seaborn-v0_8')
 fig, ax = plt.subplots()
 
